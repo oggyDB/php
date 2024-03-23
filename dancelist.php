@@ -37,6 +37,7 @@ if($comment=" ")
 }
 else
 echo "其他特殊飲食習慣：".$comment."<br>";
-
+echo "30秒後回登入畫面";
+header("Refresh:30;url=login.php");
 ?>
 </html>

@@ -90,5 +90,7 @@ MBTI人格:<br>
 <input type="reset" value="清除表單">
 
 </form>
-
+<?php
+echo "<a href='logout.php'>登出</a>";
+?>
 </html>
